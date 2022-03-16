@@ -140,14 +140,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="fssimplewindow.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="object.cpp" />
     <ClCompile Include="objectViewer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cal.h" />
     <ClInclude Include="fssimplewindow.h" />
     <ClInclude Include="matrix.h" />
     <ClInclude Include="object.h" />
+    <ClInclude Include="objectViewer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

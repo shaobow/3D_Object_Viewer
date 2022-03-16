@@ -24,6 +24,9 @@
     <ClCompile Include="object.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fssimplewindow.h">
@@ -35,7 +38,7 @@
     <ClInclude Include="matrix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cal.h">
+    <ClInclude Include="objectViewer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

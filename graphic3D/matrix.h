@@ -1,16 +1,12 @@
-#pragma once
 /**
-Square Matrix Class
-- # row
-- # column
-- set value
-- read value
-- multiply
+ * Square matrix and its operations
+ * 
+ * @tparam T the type of data stored in matrix
+ * @tparam N the dimension of square matrix, same for vector
+ */
 
-Code written by Shaobo Wang
-<The software assessment from Neocis>
-@03/14/2022
-**/
+#ifndef MATRIX_H_
+#define MATRIX_H_
 
 template <class T, const int N>
 struct vec
@@ -106,3 +102,4 @@ inline void matrix<T, N>::vecMultiply(vec<T, N>& otherVec, vec<T, N>& resultVec)
 		}
 	}
 }
+#endif // !MATRIX_H_

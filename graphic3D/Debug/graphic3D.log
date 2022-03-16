@@ -1,8 +1,5 @@
 ﻿  object.cpp
-C:\Users\Brad\Desktop\graphic3D\graphic3D\object.cpp(58,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Brad\Desktop\graphic3D\graphic3D\object.cpp(71,22): warning C4018: '<': signed/unsigned mismatch
-  objectViewer.cpp
-C:\Users\Brad\Desktop\graphic3D\graphic3D\objectViewer.cpp(17,27): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\Brad\Desktop\graphic3D\graphic3D\objectViewer.cpp(59,35): warning C4305: 'initializing': truncation from 'double' to 'float'
-  Generating Code...
+C:\Users\Brad\Desktop\graphic3D\graphic3D\object.h(22,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Brad\Desktop\graphic3D\graphic3D\object.cpp(104,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Brad\Desktop\graphic3D\graphic3D\object.cpp(125,22): warning C4018: '<': signed/unsigned mismatch
   graphic3D.vcxproj -> C:\Users\Brad\Desktop\graphic3D\Debug\graphic3D.exe
